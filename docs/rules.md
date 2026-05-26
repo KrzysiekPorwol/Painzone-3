@@ -23,3 +23,4 @@
 ## ## Planowanie i analiza
 
 11. **Analiza istniejącego kodu:** Gdy podajesz plan wdrożenia nowej funkcji, zawsze przeanalizuj aktualny kod i dostosuj do niego swój plan.
+12. **Jedna sesja, jedno zadanie:** Domyślnie w jednej sesji realizuj **jeden etap** z `docs/roadmap.md` (oszczędność tokenów i czystsza historia git). Łączyć dwa etapy wolno tylko wtedy, gdy dotyczą tego samego obszaru kodu i razem mieszczą się w jednym spójnym commicie. Po skończeniu etapu zaktualizuj jego status w `docs/roadmap.md` (`DOING` → `DONE`), oznacz kolejny jako `DOING` i odśwież sekcję „Następny krok".

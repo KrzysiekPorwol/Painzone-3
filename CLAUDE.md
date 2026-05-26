@@ -6,7 +6,8 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 Treść tych dokumentów ma pierwszeństwo nad tym plikiem. Jeśli coś się nie zgadza, ufaj plikom z `docs/` i zaktualizuj `CLAUDE.md`.
 
-- [`docs/rules.md`](docs/rules.md) — zasady współpracy (komunikacja po polsku, limit 1000 linii, zakaz `TODO`, kolejność: zależności → kod, użycie MCP `context7` dla dokumentacji bibliotek, limit 2 prób).
+- [`docs/roadmap.md`](docs/roadmap.md) — **czytaj pierwsze przy każdej nowej sesji.** Mapa etapów (E0–E10) ze statusami `TODO/DOING/DONE` + sekcja „Następny krok". Zgodnie z regułą 12 w jednej sesji realizujemy jeden etap.
+- [`docs/rules.md`](docs/rules.md) — zasady współpracy (komunikacja po polsku, limit 1000 linii, zakaz `TODO`, kolejność: zależności → kod, użycie MCP `context7` dla dokumentacji bibliotek, limit 2 prób, jedna sesja = jeden etap).
 - [`docs/prd.md`](docs/prd.md) — zakres MVP, ekrany (S0–S5), stany UI, edge cases i kryteria akceptacji (m.in. UI update < 300 ms po zapisie serii, pełna historia po loginie na nowym urządzeniu, sesja < 6h przetrwa restart).
 - [`docs/architecture.md`](docs/architecture.md) — stos technologiczny, warstwa danych (Room SSOT + Firestore + WorkManager), encje, logika domenowa (wzór Brzyckiego, progresja, timer), enumy.
 
