@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "135286378177",
+    "project_id": "painzone-3",
+    "storage_bucket": "painzone-3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:135286378177:android:9736de183f266170ad8e40",
+        "android_client_info": {
+          "package_name": "pain.zone_3"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCz58MZGinjinUrom8z9svh7VbpViSW8wc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
